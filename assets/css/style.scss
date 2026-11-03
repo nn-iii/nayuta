@@ -6,11 +6,11 @@
 body{
   max-width: 1000px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0 1rem;
   font-family: system-ui, sans-serif;
   font-weight: 500;
-  background: linen;
-  color: maroon;
+  //background: linen;
+  //color: maroon;
 }
 
 header{
@@ -24,7 +24,6 @@ grid{
     gap: 1rem;
   grid-item{
     background: white;
-    padding: .5rem;
     img{
       aspect-ratio: 1/1;
       background: gray;
@@ -33,6 +32,5 @@ grid{
 }
 
 footer{
-  background: navy;
-  color: white;
+  font-size: 90%;
 }
